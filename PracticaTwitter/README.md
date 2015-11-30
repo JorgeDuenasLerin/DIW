@@ -17,17 +17,17 @@ Especificaciones:
 Basandonos en el anterior desarrollo, haremos que nuestro cliente no necesite a nuestro server usando YQL y haremos que la carga de más tweets se haga en el evento de scroll.
 
 Especificaciones:
-1. Uso de YQL
-2. Cuando se llegue al final del scroll se deben cargar 20 tweets más
+ 1. Uso de YQL
+ 2. Cuando se llegue al final del scroll se deben cargar 20 tweets más
 
 
 ## Materiales
 
-[Plantilla base](http://www.justfreetemplates.com/web-templates/view/3378.html)
-[Librería PHP](https://github.com/J7mbo/twitter-api-php)
-[AJAX GET](https://api.jquery.com/jquery.get/)
-[XPATH](http://www.liquid-technologies.com/xpath-tutorial.aspx)
-[YQL](https://developer.yahoo.com/yql/guide/yql-select-xpath.html)
+ * [Plantilla base](http://www.justfreetemplates.com/web-templates/view/3378.html)
+ * [Librería PHP](https://github.com/J7mbo/twitter-api-php)
+ * [AJAX GET](https://api.jquery.com/jquery.get/)
+ * [XPATH](http://www.liquid-technologies.com/xpath-tutorial.aspx)
+ * [YQL](https://developer.yahoo.com/yql/guide/yql-select-xpath.html)
 
 
 ## Instrucciones
@@ -38,14 +38,14 @@ Crea en tu cuenta de twitter una cuenta de desarrollador y genera una aplicació
 
 Después tienes que identificarte tu a través del token de acceso **oauth_access_token** y **oauth_access_token_secret**
 
-'''
+ ```
 $settings = array(
     'oauth_access_token' => "****............***********",
     'oauth_access_token_secret' => "****............***********",
     'consumer_key' => "****............***********",
     'consumer_secret' => "****............***********"
 );
-'''
+ ```
 
 
 ### Uso
