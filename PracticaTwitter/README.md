@@ -7,9 +7,9 @@ En esta práctica trabajaremos con el API de twitter, jQuery, HTML y CSS
 Realizar un control para visualizar tweets de un tema en concreto (se usará la búsqueda).
 
 Especificaciones:
-1. El control debe mostrar 20 tweets
-2. Al final debe haber un botón de cargar más, cargará 20 tweets más
-3. Debemos generar en el lado del servidor un 
+ 1. El control debe mostrar 20 tweets
+ 2. Al final debe haber un botón de cargar más, cargará 20 tweets más
+ 3. Debemos generar en el lado del servidor un 
 
 
 ### Práctica 2
