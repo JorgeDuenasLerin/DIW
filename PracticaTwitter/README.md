@@ -102,7 +102,7 @@ $.get( url, param )
   }).fail(function( data ) {
   	//Función de error
     //...
-  })always(function() {
+  }).always(function() {
     //Función de finalización
     //...
   });
@@ -131,6 +131,8 @@ Dentro del HTML debemos generar un gif para cuando cargamos los tweets (típico 
 </div>
  ```
 
+### Sin conexión a Internet
+El código fuente de los archivos download.php y fake_twitter.php están disponibles para poder realizar esta práctica utilizando peticiones ajas sin tener que usar internet.
 
 ### Pseudocódigo
 
