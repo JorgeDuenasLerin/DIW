@@ -131,6 +131,17 @@ Dentro del HTML debemos generar un gif para cuando cargamos los tweets (típico 
 </div>
  ```
 
+A la hora de utilizar la propieded overflow este template realiza un cálculo que posiciona la caja de la derecha por encima impidiendo que podamos hacer scroll. Para subsanarlo y poder usar este template:
+
+ ```
+/* para añadir al elemento:
+middlebar_content_inner wow fadeInUp animated
+*/
+overflow-x: auto;
+height: 400px;
+direction: rtl;
+ ```
+
 ### Sin conexión a Internet
 El código fuente de los archivos download.php y fake_twitter.php están disponibles para poder realizar esta práctica utilizando peticiones ajas sin tener que usar internet.
 
